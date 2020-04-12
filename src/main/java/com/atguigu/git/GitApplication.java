@@ -9,10 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class GitApplication {
 
     public static void main(String[] args) {
-
+        System.out.println("test");
         SpringApplication.run(GitApplication.class, args);
     }
-
 
 
 }
